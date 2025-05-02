@@ -4,8 +4,8 @@ project(my_project)
 set(CMAKE_C_STANDARD 11)
 
 # Добавляем исполняемые файлы для каждой программы
-add_executable(5_1 signal.c)
-add_executable(5_2 nonamefifo.c)
+add_executable(5_1 5_1.c)
+add_executable(5_2 5_2.c)
 
 # Если ochered и signals - это директории с дополнительными файлами
 # можно добавить их как поддиректории
